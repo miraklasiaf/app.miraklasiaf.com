@@ -1,0 +1,29 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/fonts/inter-var-latin.woff2",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/wp-admin",
+      "destination": "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+    },
+    {
+      "source": "/wp-login.php",
+      "destination": "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+    },
+    {
+      "source": "/.env",
+      "destination": "https://www.youtube.com/watch?v=2ZIpFytCSVc"
+    }
+  ]
+}
